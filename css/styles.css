@@ -1,0 +1,14 @@
+.btn-purple {
+    background-color: #c63cd8;
+    color: white;
+}
+
+.btn-purple:hover {
+    background-color: #a12ab1;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             };
 
             try {
-                const response = await fetch('http://44.202.189.236:5000/api/devices', {
+                const response = await fetch('http://44.193.226.55:5000/api/devices', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'

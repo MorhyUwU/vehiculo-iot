@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             // Prepara los datos para enviar a la API
             const payload = {
-                name: "Mazapan",
+                name: "Carrito",
                 ip: publicIP, // Ahora sí está disponible y correcta
                 status: command
             };
@@ -59,4 +59,5 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
     });
 });
+
 

@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             };
 
             try {
-                const response = await fetch('http://44.193.226.55:5000/api/devices', {
+                const response = await fetch('http://3.236.218.193/api/assets/add', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -59,3 +59,4 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
     });
 });
+
